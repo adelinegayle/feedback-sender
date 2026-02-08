@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full-stack email survey app with Google OAuth, Stripe, and SendGrid",
   "main": "index.js",
   "engines": {
     "node": "16.5.0",
@@ -15,7 +15,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --legacy-peer-deps --prefix client && npm run build --prefix client",
     "webhook": "ngrok http 5000"
   },
-  "author": "",
+  "author": "Adeline Noman",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",

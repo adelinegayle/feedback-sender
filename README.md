@@ -37,6 +37,7 @@ A full-stack app for creating and sending email surveys. Users sign in with Goog
      stripePublishableKey: 'pk_test_...',
      stripeSecretKey: 'sk_test_...',
      sendGridKey: 'SG....',
+     sendGridFromEmail: 'your-sender@example.com',
      redirectDomain: 'http://localhost:3000'
    };
    ```
@@ -51,4 +52,4 @@ A full-stack app for creating and sending email surveys. Users sign in with Goog
 
 ### Environment variables (production)
 
-For production (e.g. Heroku), set: `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `MONGO_URI`, `COOKIE_KEY`, `STRIPE_PUBLISHABLE_KEY`, `STRIPE_SECRET_KEY`, `SEND_GRID_KEY`, `REDIRECT_DOMAIN`.
+For production (e.g. Heroku), set: `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `MONGO_URI`, `COOKIE_KEY`, `STRIPE_PUBLISHABLE_KEY`, `STRIPE_SECRET_KEY`, `SEND_GRID_KEY`, `SEND_GRID_FROM_EMAIL`, `REDIRECT_DOMAIN`.
